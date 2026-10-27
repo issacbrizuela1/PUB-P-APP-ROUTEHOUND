@@ -15,9 +15,9 @@ Get the installer for your system from [Releases](https://github.com/issacbrizue
 
 | System | File |
 |---|---|
-| Windows | `.msi` or `-setup.exe` |
-| macOS (Intel and Apple Silicon) | `.dmg` |
-| Linux | `.AppImage`, `.deb` or `.rpm` |
+| Windows 10/11 (x64) | `-setup.exe` |
+| macOS (Intel and Apple Silicon) | coming soon |
+| Linux | coming soon |
 
 Builds are not code-signed yet, so Windows SmartScreen ("More info › Run anyway") and macOS
 Gatekeeper (right click › Open) will ask for confirmation.

@@ -33,5 +33,5 @@ Routehound is free and made by one developer. If it saves you time, you can
 
 ## License
 
-[FSL-1.1-MIT](LICENSE) (Functional Source License): free to use, modify and use at work. You may
-not offer it as a competing commercial product. Each release becomes MIT two years after it is published.
+[PolyForm Shield 1.0.0](LICENSE): free to use, modify and use at work. You may not offer it as a
+product that competes with Routehound. Version 0.1.0 was released under FSL-1.1-MIT and keeps that license.

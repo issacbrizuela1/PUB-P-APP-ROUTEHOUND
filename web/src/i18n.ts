@@ -29,7 +29,7 @@ export const copy = {
     supportTitle: 'Free, local, made by one developer',
     supportText: 'If Routehound saves you time, a coffee on Ko-fi helps keep it going.',
     supportBtn: 'Buy me a coffee on Ko-fi',
-    license: 'FSL-1.1-MIT, free to use, including at work',
+    license: 'PolyForm Shield 1.0.0, free to use, including at work',
     releases: 'Releases',
     features: [
       ['Indexing from code', 'Express, Fastify, NestJS, Next.js, Koa and Hono: imports, mounted routers, prefixes and aliases.'],
@@ -74,7 +74,7 @@ export const copy = {
     supportTitle: 'Gratis, local y hecho por un solo desarrollador',
     supportText: 'Si Routehound te ahorra tiempo, un café en Ko-fi ayuda a que siga adelante.',
     supportBtn: 'Invítame un café en Ko-fi',
-    license: 'FSL-1.1-MIT, uso gratis, también en el trabajo',
+    license: 'PolyForm Shield 1.0.0, uso gratis, también en el trabajo',
     releases: 'Versiones',
     features: [
       ['Indexado desde el código', 'Express, Fastify, NestJS, Next.js, Koa y Hono: imports, routers montados, prefijos y alias.'],

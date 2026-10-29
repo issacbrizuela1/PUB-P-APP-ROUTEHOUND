@@ -31,6 +31,8 @@ export const copy = {
     supportBtn: 'Buy me a coffee on Ko-fi',
     license: 'PolyForm Shield 1.0.0, free to use, including at work',
     releases: 'Releases',
+    privacy: 'Privacy',
+    terms: 'Terms',
     features: [
       ['Indexing from code', 'Express, Fastify, NestJS, Next.js, Koa and Hono: imports, mounted routers, prefixes and aliases.'],
       ['Stays in sync', 'A folder watcher re-indexes and merges, keeping your names, saved requests and docs. Gone routes are flagged, not deleted.'],
@@ -76,6 +78,8 @@ export const copy = {
     supportBtn: 'Invítame un café en Ko-fi',
     license: 'PolyForm Shield 1.0.0, uso gratis, también en el trabajo',
     releases: 'Versiones',
+    privacy: 'Privacidad',
+    terms: 'Términos',
     features: [
       ['Indexado desde el código', 'Express, Fastify, NestJS, Next.js, Koa y Hono: imports, routers montados, prefijos y alias.'],
       ['Siempre al día', 'Un watcher de carpeta reindexa y fusiona, conservando tus nombres, peticiones guardadas y docs. Las rutas que desaparecen se marcan, no se borran.'],

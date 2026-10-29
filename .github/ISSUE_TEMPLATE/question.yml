@@ -1,0 +1,36 @@
+name: Ask a question / Hacer una pregunta
+description: Questions, help with a setup, or ideas for Routehound.
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are **public**. Never paste tokens, passwords, API keys, personal data or private code.
+        Replies are best effort: Routehound is maintained by one person.
+        Los issues son **públicos**. Las respuestas son de mejor esfuerzo.
+  - type: input
+    id: version
+    attributes:
+      label: Version / Versión
+      placeholder: 0.2.2
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system / Sistema operativo
+      options:
+        - Windows
+        - Linux
+        - macOS
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or idea / Pregunta o idea
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before sending / Antes de enviar
+      options:
+        - label: I did not include tokens, passwords or private code. / No incluí tokens, contraseñas ni código privado.
+          required: true

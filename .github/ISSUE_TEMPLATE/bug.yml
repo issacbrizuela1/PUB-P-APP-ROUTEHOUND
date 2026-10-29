@@ -1,0 +1,59 @@
+name: Report a problem / Reportar un problema
+description: Something in Routehound does not work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are **public**. Never paste tokens, passwords, API keys, personal data or private code: replace them with `***` or sample data.
+        Security vulnerabilities go to **Security › Report a vulnerability** (private), not here.
+        Los issues son **públicos**: nunca pegues tokens, contraseñas, claves de API, datos personales ni código privado.
+  - type: input
+    id: version
+    attributes:
+      label: Version / Versión
+      description: About › Updates (filled in when you open this from the app).
+      placeholder: 0.2.2
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system / Sistema operativo
+      options:
+        - Windows
+        - Linux
+        - macOS
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Pasos para reproducirlo
+      placeholder: |
+        1. Settings › Index a project › …
+        2. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected / Lo que esperabas
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened / Lo que pasó
+      description: Error messages, screenshots or a minimal sample project help a lot.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before sending / Antes de enviar
+      options:
+        - label: I searched the open and closed issues. / Busqué en los issues abiertos y cerrados.
+          required: true
+        - label: I did not include tokens, passwords or private code. / No incluí tokens, contraseñas ni código privado.
+          required: true

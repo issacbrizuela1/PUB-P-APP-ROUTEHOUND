@@ -33,7 +33,18 @@ This repository only hosts the releases and the website ([web/](web)); the sourc
 
 Website: https://issacbrizuela1.github.io/PUB-P-APP-ROUTEHOUND/
 
-## Support
+## Help
+
+Questions and bug reports go through [issues](https://github.com/issacbrizuela1/PUB-P-APP-ROUTEHOUND/issues/new/choose),
+using one of the two templates. Read [SUPPORT.md](SUPPORT.md) first: issues are **public**, so never
+paste tokens, passwords or private code. Security problems go through [SECURITY.md](SECURITY.md), not an issue.
+
+## Privacy and terms
+
+No accounts, no telemetry, no analytics: everything stays on your machine. See the
+[privacy notice](PRIVACY.md) and the [terms and conditions](TERMS.md) (also in About, inside the app).
+
+## Support the project
 
 Routehound is free and made by one developer. If it saves you time, you can
 [buy me a coffee on Ko-fi](https://ko-fi.com/issacb).

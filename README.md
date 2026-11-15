@@ -13,8 +13,8 @@ file. When the code changes, it re-indexes and merges, keeping your names, saved
 docs, and flagging routes that are gone instead of deleting them.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="web/public/demo-dark.gif">
-  <img alt="Routehound indexing a project and sending a request" src="web/public/demo.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="web/public/demo-dark.webp">
+  <img alt="Routehound indexing a project and sending a request" src="web/public/demo.webp">
 </picture>
 
 Windows and Linux (macOS coming soon).

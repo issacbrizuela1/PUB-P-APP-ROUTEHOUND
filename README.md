@@ -12,7 +12,10 @@ projects automatically**. Point it at an API project and it builds the collectio
 file. When the code changes, it re-indexes and merges, keeping your names, saved requests and
 docs, and flagging routes that are gone instead of deleting them.
 
-![Routehound indexing an Express project and sending a request](web/public/demo.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="web/public/demo-dark.gif">
+  <img alt="Routehound indexing a project and sending a request" src="web/public/demo.gif">
+</picture>
 
 Windows and Linux (macOS coming soon).
 

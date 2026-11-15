@@ -16,6 +16,26 @@ docs, and flagging routes that are gone instead of deleting them.
 
 Windows and Linux (macOS coming soon).
 
+## Features
+
+- **Indexing from code**: Express, Fastify, NestJS, Next.js, Koa and Hono: imports, mounted routers, prefixes and aliases.
+- **Stays in sync**: a folder watcher re-indexes and merges, keeping your names, saved requests and docs. Gone routes are flagged, not deleted.
+- **Local AI fallback**: when the indexer finds nothing (FastAPI, Laravel, Spring, Go…), your LM Studio model proposes the routes for review. It also finds GraphQL operations, one entry each.
+- **Request editor**: params, headers, JSON, XML, form and multipart bodies with files, body variants, `{{variables}}` with environments per collection and a Production guard, port per endpoint, native send without CORS, code editor with JSON format, response filter by path, history, cURL import and `Ctrl K`.
+- **Local-first**: one folder per collection, one JSON file per endpoint, ready for git. Secrets stay in the OS keychain.
+- **Import and export**: OpenAPI/Swagger (JSON or YAML), Postman v2.x and Bruno in. OpenAPI 3 out.
+
+## How it compares
+
+| | Routehound | Bruno | Postman |
+|---|---|---|---|
+| Builds the collection from your code | ✅ (Node; others via local AI) | ❌ (from an OpenAPI spec) | 🟡 (from live traffic) |
+| Keeps it in sync as code changes | ✅ (watcher + merge) | 🟡 (spec sync) | 🟡 (traffic agent) |
+| Local-first, files in git | ✅ | ✅ | 🟡 |
+| AI without sending code to the cloud | ✅ (LM Studio) | 🟡 | ❌ |
+| GraphQL | 🟡 (found by local AI) | ✅ | ✅ |
+| Scripting, test runner, gRPC | ❌ (not yet) | ✅ | ✅ |
+
 ## Download
 
 Get the installer for your system from [Releases](https://github.com/issacbrizuela1/PUB-P-APP-ROUTEHOUND/releases/latest):
